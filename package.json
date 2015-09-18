@@ -1,7 +1,7 @@
 {
   "name": "grunt-json-ref-resolver",
   "description": "Reads JSON data and resolves crossreferences between keys",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "",
   "author": {
     "name": "Michael Zajonz",
