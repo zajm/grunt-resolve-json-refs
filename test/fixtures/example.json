@@ -10,5 +10,6 @@
     "D": "@:C",
     "E": "ahoi!",
     "F": "D",
-    "CAREFUL_NOW": "@:@:F"
+    "CAREFUL_NOW": "@:@:F",
+    "MULTIPLE": "This finally works: Including \"@:A.A1\" and \"@:E\" in the middle of a string!"
 }

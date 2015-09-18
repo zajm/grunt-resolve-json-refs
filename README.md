@@ -56,7 +56,8 @@ Please check out the units tests for details, but this is the gist:
     "D": "@:C",
     "E": "ahoi!",
     "F": "D",
-    "CAREFUL_NOW": "@:@:F"
+    "CAREFUL_NOW": "@:@:F",
+    "MULTIPLE": "This finally works: Including \"@:A.A1\" and \"@:E\" in the middle of a string!"
 }
 ```
 
@@ -75,7 +76,8 @@ will be turned into
     "D": "A1",
     "E": "ahoi!",
     "F": "D",
-    "CAREFUL_NOW": "A1"
+    "CAREFUL_NOW": "A1",
+    "MULTIPLE": "This finally works: Including \"A1\" and \"ahoi!\" in the middle of a string!"
 }
 ```
 

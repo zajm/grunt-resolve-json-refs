@@ -10,5 +10,6 @@
     "D": "A1",
     "E": "ahoi!",
     "F": "D",
-    "CAREFUL_NOW": "A1"
+    "CAREFUL_NOW": "A1",
+    "MULTIPLE": "This finally works: Including \"A1\" and \"ahoi!\" in the middle of a string!"
 }
