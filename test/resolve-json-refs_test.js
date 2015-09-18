@@ -3,7 +3,7 @@
 (function(){
   var grunt = require('grunt');
 
-  exports.json_ref_resolver = {
+  exports["resolve-json-refs"] = {
     setUp: function(done) {
       // setup here if necessary
       done();

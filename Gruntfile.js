@@ -21,7 +21,7 @@ module.exports = function(grunt) {
     },
 
     // Configuration to be run (and then tested).
-    json_ref_resolver: {
+    "resolve-json-refs": {
       one_level: {
         files: {
           'tmp/one_level.json': ['test/fixtures/one_level.json']
@@ -86,7 +86,7 @@ module.exports = function(grunt) {
 
   // Whenever the "test" task is run, first clean the "tmp" dir, then run this
   // plugin's task(s), then test the result.
-  grunt.registerTask('test', ['clean', 'json_ref_resolver', 'nodeunit']);
+  grunt.registerTask('test', ['clean', 'resolve-json-refs', 'nodeunit']);
 
   // By default, lint and run all tests.
   grunt.registerTask('default', ['jshint', 'test']);

@@ -8,7 +8,7 @@ module.exports = function(grunt) {
   // Please see the Grunt documentation for more information regarding task
   // creation: http://gruntjs.com/creating-tasks
 
-  grunt.registerMultiTask('json_ref_resolver', 'Reads JSON data and resolves crossreferecnes between keys', function() {
+  grunt.registerMultiTask('resolve-json-refs', 'Reads JSON data and resolves crossreferecnes between keys', function() {
     // Merge task-specific and/or target-specific options with these defaults.
     var options = this.options({
     });
