@@ -66,6 +66,11 @@ module.exports = function(grunt) {
         files: {
           'tmp/example.json': ['test/fixtures/example.json']
         }
+      },
+      empty_ref: {
+        files: {
+          'tmp/empty_ref.json': ['test/fixtures/empty_ref.json']
+        }
       }
     },
 

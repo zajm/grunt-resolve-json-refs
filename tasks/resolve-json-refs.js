@@ -67,7 +67,7 @@ module.exports = function(grunt) {
               grunt.warn("Circular dependency detected: " + resolved.join(" -> ") + " -> " + match[0]);
             } else {
               var replacement = getReferencedString(match[1]);
-              if (replacement) {
+              if (replacement !== undefined) {
                 val = val.replace(match[0], replacement);
                 // memorize resolved refs so we can detect circular refs
                 resolved.push(match[0])
@@ -93,7 +93,8 @@ module.exports = function(grunt) {
         var obj = db;
 
         for (var i=0; i<parts.length; i++) {
-          if (!(obj = obj[parts[i]])) {
+          obj = obj[parts[i]];
+          if (obj === undefined || obj === null) {
             // undefined, if the key doesn't exist
             grunt.warn("\"" + refString + "\" cannot be resolved!");
             break;

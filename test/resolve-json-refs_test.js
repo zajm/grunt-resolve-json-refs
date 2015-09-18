@@ -31,6 +31,9 @@
     },
     example: function(test) {
       simpleComparison(test, "example", 'The example from the readme should actually return the advertised result');
+    },
+    empty_ref: function(test) {
+      simpleComparison(test, "empty_ref", 'Empty targets are not interpreted as unresolvable');
     }
   };
 
