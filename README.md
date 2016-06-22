@@ -1,4 +1,4 @@
-# grunt-json-ref-resolver
+# grunt-resolve-json-refs
 
 This plugin can be used resolve textual references within a self contained JSON hash, meaning:
 You can reference one key from the other and have to repeat yourself less. Or More. It depends.
@@ -11,13 +11,13 @@ This plugin requires Grunt `~0.4.5` or `^1.0.0`.
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-json-ref-resolver --save-dev
+npm install grunt-resolve-json-refs --save-dev
 ```
 
 Once the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-json-ref-resolver');
+grunt.loadNpmTasks('grunt-resolve-json-refs');
 ```
 
 ## The "resolve-json-refs" task
