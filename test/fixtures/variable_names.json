@@ -1,0 +1,14 @@
+{
+    "SIMPLE": "Simple",
+    "WITH_UNDERSCORE": "With Underscore",
+    "NUMBER123": "With Number",
+    "_BEGINNING_WITH_UNDERSCORE": "Beginning with underscore",
+    "lowercase": "lowercase",
+    "&%)": "special chars",
+    "INCLUDE_SIMPLE": "@:SIMPLE",
+    "INCLUDE_WITH_UNDERSCORE": "@:WITH_UNDERSCORE",
+    "INCLUDE_NUMBER123": "@:NUMBER123",
+    "INCLUDE_BEGINNING_WITH_UNDERSCORE": "@:_BEGINNING_WITH_UNDERSCORE",
+    "INCLUDE_lowercase": "@:lowercase",
+    "INCLUDE_&%)": "@:&%)"
+}
